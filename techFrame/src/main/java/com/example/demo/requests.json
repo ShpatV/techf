@@ -1,0 +1,200 @@
+[
+  {
+    "product": {
+      "name": "Ice-Cream",
+      "price": 0.25,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 240
+  },
+  {
+    "product": {
+      "name": "Nivea",
+      "price": 2.40,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 38
+  },
+  {
+    "product": {
+      "name": "TV",
+      "price": 760.00,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 1
+  },
+  {
+    "product": {
+      "name": "Coca Cola",
+      "price": 0.50,
+      "discount": 0.10,
+      "vat": 18.00
+    },
+    "quantity": 77
+  },
+  {
+    "product": {
+      "name": "Milka",
+      "price": 1.25,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 38
+  },
+  {
+    "product": {
+      "name": "Chips2",
+      "price": 3.78,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 92
+  },
+  {
+    "product": {
+      "name": "Fish",
+      "price": 8.30,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 49
+  },
+  {
+    "product": {
+      "name": "Meat",
+      "price": 2.66,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 16
+  },
+  {
+    "product": {
+      "name": "Red Wine",
+      "price": 9.20,
+      "discount": 0.02,
+      "vat": 18.00
+    },
+    "quantity": 18
+  },
+  {
+    "product": {
+      "name": "White Wine",
+      "price": 1.25,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 8
+  },
+  {
+    "product": {
+      "name": "Dark Wine",
+      "price": 9.78,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 22
+  },
+  {
+    "product": {
+      "name": "Egg",
+      "price": 8.30,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 10
+  },
+  {
+    "product": {
+      "name": "Malboro",
+      "price": 5.46,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 89
+  },
+  {
+    "product": {
+      "name": "Snack",
+      "price": 1.34,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 33
+  },
+  {
+    "product": {
+      "name": "Vita",
+      "price": 0.66,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 14
+  },
+  {
+    "product": {
+      "name": "Bleach",
+      "price": 1.23,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 11
+  },
+  {
+    "product": {
+      "name": "Napkins",
+      "price": 0.21,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 85
+  },
+  {
+    "product": {
+      "name": "Eggs",
+      "price": 0.16,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 104
+  },
+  {
+    "product": {
+      "name": "Plastic Bag",
+      "price": 0.05,
+      "discount": 0.00,
+      "vat": 18.00
+    },
+    "quantity": 398
+  },
+  {
+    "product": {
+      "name": "Aluminum Foil",
+      "price": 1.12,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 21
+  },
+  {
+    "product": {
+      "name": "Razor",
+      "price": 8.10,
+      "discount": 0.00,
+      "vat": 8.00
+    },
+    "quantity": 51
+  },
+  {
+    "product": {
+      "name": "Palma Oil",
+      "price": 12.00,
+      "discount": 0.00,
+      "vat": 22.00
+    },
+    "quantity": 205
+  }
+]
