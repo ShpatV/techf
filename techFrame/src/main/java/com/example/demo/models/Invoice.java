@@ -1,9 +1,6 @@
 package com.example.demo.models;
-
-
 import com.example.demo.IdGenerator;
 import lombok.Data;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
