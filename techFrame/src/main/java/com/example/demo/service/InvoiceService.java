@@ -5,6 +5,7 @@ import com.example.demo.models.InvoiceItem;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 
 @Service
@@ -48,3 +49,24 @@ public class InvoiceService implements IInvoiceService {
         }
         return isAdded;
     }
+
+    private boolean addProductToInvoice(InvoiceItem item, Invoice invoice) {
+        int maxQuantity = calculateMaxQuantity(
+                item.getProduct().getTotalPrice(),
+                item.getQuantity(),
+                Invoice.MAX_AMOUNT.subtract(invoice.getTotalAmount())
+        );
+
+        if (maxQuantity == 0) {
+            return false;
+        }
+
+        boolean isAdded = invoice.addProduct(new InvoiceItem(item.getProduct(), maxQuantity));
+        if (isAdded) {
+            item.setQuantity(item.getQuantity() - maxQuantity);
+        }
+        return isAdded;
+    }
+
+ 
+}
