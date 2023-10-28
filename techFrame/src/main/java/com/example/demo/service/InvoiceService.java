@@ -68,5 +68,11 @@ public class InvoiceService implements IInvoiceService {
         return isAdded;
     }
 
- 
+    private int calculateMaxQuantity(BigDecimal productPrice, int quantity, BigDecimal limit) {
+        int maxQuantityByProducts = Math.min(
+                Invoice.PRODUCT_LIMIT,
+                limit.divide(productPrice, RoundingMode.FLOOR).intValue()
+        );
+        return Math.min(maxQuantityByProducts, quantity);
+    }
 }
